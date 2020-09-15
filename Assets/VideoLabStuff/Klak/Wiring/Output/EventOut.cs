@@ -23,16 +23,19 @@
 //
 using UnityEngine;
 using System.Reflection;
+using UnityEngine.Events;
 
 namespace Klak.Wiring
 {
     [AddComponentMenu("Klak/Wiring/Output/Generic/Event Out")]
     public class EventOut : NodeBase
     {
+        
         #region Editable properties
 
         [SerializeField]
         VoidEvent _event;
+
 
         #endregion
 
