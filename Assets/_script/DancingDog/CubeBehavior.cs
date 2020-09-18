@@ -26,6 +26,10 @@ public class CubeBehavior : MonoBehaviour
         
     }
 
+    void OnTriggerEnter (Collider c)
+    {
+        Debug.Log("Collide!");
+    }
     // Update is called once per frame
     void Update()
     {
