@@ -15,21 +15,7 @@ MonoBehaviour:
   entries:
   - deviceValue: 1
     jackValue: 1
-  - deviceValue: 0
-    jackValue: 0
-  - deviceValue: 0
-    jackValue: 0
-  - deviceValue: 0
-    jackValue: 0
-  - deviceValue: 0
-    jackValue: 0
-  - deviceValue: 0
-    jackValue: 0
-  - deviceValue: 0
-    jackValue: 0
-  - deviceValue: 0
-    jackValue: 0
-  - deviceValue: 0
-    jackValue: 0
-  - deviceValue: 0
-    jackValue: 0
+  - deviceValue: 2
+    jackValue: 2
+  - deviceValue: 3
+    jackValue: 3

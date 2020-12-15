@@ -6,7 +6,7 @@ using UnityEngine.Events;
 
 public class CubeBehavior : MonoBehaviour
 {
-    public Transform player;
+    //public Transform player;
     Rigidbody rb;
     public float speed = 30;
     int danceState = 1;
@@ -26,9 +26,14 @@ public class CubeBehavior : MonoBehaviour
         
     }
 
-    void OnTriggerEnter (Collider c)
+    public void OnCollisionEnter (Collision c)
     {
         Debug.Log("Collide!");
+    }
+
+    public void OnTriggerStay (Collider c)
+    {
+        Debug.Log("SomethingStay");
     }
     // Update is called once per frame
     void Update()

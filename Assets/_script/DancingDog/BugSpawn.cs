@@ -26,7 +26,7 @@ public class BugSpawn : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire1"))
         {
-            //SpawnBug(10); //Temporary
+            SpawnBug(10); //Temporary
 
         }
     }
